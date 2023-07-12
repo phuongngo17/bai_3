@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 7</title>
+</head>
+<style>
+    .header {
+        background-color: #eea6a6;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .nav_menu {
+        overflow: hidden;
+        background-color: #615959;
+    }
+
+    .nav_menu a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .TruyenTOP1,
+    .TruyenTOP2,
+    .TruyenTOP3 {
+        float: left;
+        width: 31%;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    h2 {
+        color: rgb(117, 131, 117);
+        text-align: center;
+    }
+
+    @media screen and (max-width:600px) {
+
+        .TruyenTOP1,
+        .TruyenTOP2,
+        .TruyenTOP3 {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+
+        .TruyenTOP1,
+        .TruyenTOP2,
+        .TruyenTOP3 {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h2 style="color: white; font-size: 200%;">Truyện hay</h2>
+    </div>
+    <div class="nav_menu"><a href="#">Menu</a><a href="#">Truyện hay </a><a href="#">Truyện mới</a></div>
+    <br>
+    <div class="row">
+        <div class="Tieu thuyet">
+            <h2>Tiểu Thuyết</h2>
+            <p>..............................................................................................................................................
+            </p><br>
+        </div>
+        <div class="Co tich">
+            <h2>Cổ Tích</h2>
+            <p>.............................................................................................................................................
+            </p><br>
+        </div>
+        <div class="Truyen cuoi">
+            <h2>Truyện cười</h2>
+            <p>............................................................................................................................................
+            </p><br>
+        </div>
+    </div>
+</body>
+
+</html>
